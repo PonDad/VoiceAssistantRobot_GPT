@@ -1,5 +1,5 @@
 # VoiceAssistantGPT
-![img1]()
+![img1](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/vagpt2.JPG)
 
 ## ハードウェア・ソフトウェア
 
@@ -11,7 +11,7 @@
 ChatGPT APIのAPIキーを`.env`にて指定してください
 
 ## 仕組み
-![img2]()
+![img2](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/chart_2.png)
 
 音声発話（ユーザー） --> 音声認識（Vosk） --> テキスト化 --> 自動ツール選択（LangChain Agent） --> ChatGPT APIと通信 --> 音声合成（Aques Talk Pi）--> 合成音声発話（ロボット）
 
@@ -28,6 +28,6 @@ python main.py
 
 ## 実行動画
 
-![video1]()
+![video1](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/turn_down_a_little_bit.mp4)
 
 「ちょっと下を向いて」という指示をChatGPTが解釈して下30度にカメラを移動させています。
