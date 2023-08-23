@@ -43,7 +43,8 @@ dotenv.load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # エージェントの制御に使用する言語モデルをロード
-llm = ChatOpenAI(temperature=0)
+#llm = ChatOpenAI(temperature=0)
+llm = ChatOpenAI(model_name="gpt-3.5-turbo-16k-0613", temperature=0)
 
 # 現在時刻を読み取るツール
 @tool
@@ -87,15 +88,18 @@ def get_user_info() -> json:
     if recognized_id in load_user:
         user_name = load_user[recognized_id]["name"]
         user_category = load_user[recognized_id]["category"]
+        user_interested = load_user[recognized_id]["interested"]
     else:
         recognized_id = "unknown"
         user_name = "ゲスト"
         user_category = "unknown"
+        user_interested = "unknown"
 
     user_info = {
         "recognized_id": recognized_id,
         "user_name": user_name,
-        "user_category": user_category 
+        "user_category": user_category,
+        "user_interested": user_interested,
     }
 
     return  json.dumps(user_info)
