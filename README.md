@@ -25,9 +25,3 @@ ChatGPT APIのAPIキーを`.env`にて指定してください
 python main.py
 ```
 で実行してください。
-
-## 実行動画
-
-![video1](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/turn_down_a_little_bit.mp4)
-
-「ちょっと下を向いて」という指示をChatGPTが解釈して下30度にカメラを移動させています。
