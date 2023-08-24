@@ -5,10 +5,13 @@
 
 [PonDad/VoiceAssistantBot](https://github.com/PonDad/VoiceAssistantBot/tree/main) に追加して以下のソフトウェアが必要になります。
 
+- Python3.9.2: [requirements](https://github.com/PonDad/VoiceAssistantGPT/blob/main/requirements.txt)
 - 生成AI: [ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) / [openai](https://pypi.org/project/openai/)
-- 大規模言語モデルフレームワーク: [LangChain](https://python.langchain.com/docs/get_started/installation)
+- LLMフレームワーク: [LangChain](https://python.langchain.com/docs/get_started/installation)
+- 検索エンジンAPI: [DuckDuckGo Search](https://github.com/deedy5/duckduckgo_search)
 
-ChatGPT APIのAPIキーを`.env`にて指定してください
+> **Note**
+> ChatGPT APIのAPIキーを`.env`にて指定してください
 
 ## 仕組み
 ![img2](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/chart_2.png)
