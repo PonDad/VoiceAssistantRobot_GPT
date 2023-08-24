@@ -1,6 +1,13 @@
 # VoiceAssistantGPT
 ![img1](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/vagpt2.JPG)
 
+## 仕組み
+![img2](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/chart_2.png)
+
+音声発話（ユーザー） --> 音声認識（Vosk） --> テキスト化 --> 自動ツール選択（LangChain Agent） --> ChatGPT APIと通信 --> 音声合成（Aques Talk Pi）--> 合成音声発話（ロボット）
+
+の様に動作します。LangChainのAgent機能によって、ChatGPTがユーザーの指示に対しどの様なツールを、どの順番で使うか自動的に選択します。
+
 ## ハードウェア・ソフトウェア
 
 [PonDad/VoiceAssistantBot](https://github.com/PonDad/VoiceAssistantBot/tree/main) に追加して以下のソフトウェアが必要になります。
@@ -12,13 +19,6 @@
 
 > **Note**
 > ChatGPT APIのAPIキーを`.env`にて指定してください
-
-## 仕組み
-![img2](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/chart_2.png)
-
-音声発話（ユーザー） --> 音声認識（Vosk） --> テキスト化 --> 自動ツール選択（LangChain Agent） --> ChatGPT APIと通信 --> 音声合成（Aques Talk Pi）--> 合成音声発話（ロボット）
-
-の様に動作します。LangChainのAgent機能によって、ChatGPTがユーザーの指示に対しどの様なツールを、どの順番で使うか自動的に選択します。
 
 ## 使い方
 
