@@ -1,4 +1,4 @@
-# VoiceAssistantGPT
+# VoiceAssistantRobot_RPi_GPT
 ![img1](https://github.com/PonDad/VoiceAssistantGPT/blob/main/images/vagpt2.JPG)
 
 ## 仕組み
@@ -10,7 +10,7 @@
 
 ## ハードウェア・ソフトウェア
 
-[PonDad/VoiceAssistantBot](https://github.com/PonDad/VoiceAssistantBot/tree/main) に追加して以下のソフトウェアが必要になります。
+[PonDad/VoiceAssistantRobot_RPi](https://github.com/PonDad/VoiceAssistantRobot_RPi) に追加して以下のソフトウェアが必要になります。
 
 - Python3.9.2: [requirements](https://github.com/PonDad/VoiceAssistantGPT/blob/main/requirements.txt)
 - 生成AI: [ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) / [openai](https://pypi.org/project/openai/)
@@ -22,7 +22,7 @@
 
 ## 使い方
 
-[PonDad/VoiceAssistantBot](https://github.com/PonDad/VoiceAssistantBot/tree/main) と同じですが、各ツールの選択をAgentがおこなうため、`data/command_data.json`のコマンドワード設定は不要です。
+[PonDad/VoiceAssistantRobot_RPi](https://github.com/PonDad/VoiceAssistantRobot_RPi) と同じですが、各ツールの選択をAgentがおこなうため、`data/command_data.json`のコマンドワード設定は不要です。
 
 ```bash
 python main.py
