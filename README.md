@@ -1,8 +1,9 @@
 # VoiceAssistantRobot_RPi_GPT
-![img1](https://github.com/PonDad/VoiceAssistantRobot_RPi_GPT/blob/main/images/image_2.JPG)
+
+[![YouTube](http://img.youtube.com/vi/703jyL2EDnk/0.jpg)](https://www.youtube.com/watch?v=703jyL2EDnk)
 
 ## 仕組み
-![img2](https://github.com/PonDad/VoiceAssistantRobot_RPi_GPT/blob/main/images/chart_2.png)
+![chart2](https://github.com/PonDad/VoiceAssistantRobot_RPi_GPT/blob/main/images/chart_2.png)
 
 音声発話（ユーザー） --> 音声認識（Vosk） --> テキスト化 --> 自動ツール選択（LangChain Agent） --> ChatGPT APIと通信 --> 音声合成（Aques Talk Pi）--> 合成音声発話（ロボット）
 
