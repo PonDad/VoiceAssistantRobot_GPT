@@ -1,6 +1,6 @@
 # VoiceAssistantRobot_RPi_GPT
 
-[![YouTube](http://img.youtube.com/vi/703jyL2EDnk/0.jpg)](https://www.youtube.com/watch?v=703jyL2EDnk)
+[![YouTube](https://img.youtube.com/vi/703jyL2EDnk/0.jpg)](https://www.youtube.com/watch?v=703jyL2EDnk)
 
 ## 仕組み
 ![chart2](https://github.com/PonDad/VoiceAssistantRobot_RPi_GPT/blob/main/images/chart_2.png)
